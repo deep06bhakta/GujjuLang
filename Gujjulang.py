@@ -46,61 +46,6 @@ gujjulang_file_path = 'test.gj'
 gujjulang_code = read_gujjulang_code(gujjulang_file_path)
 
 
-# Example usage
-gujjulang_code = """
-
-bolo("--------------------------------------------------------")
-bolo("Test Case: 1")
-bolo("--------------------------------------------------------")
-bolo(" ")
-
-aa che x = 0
-jyare i hoi(1, 101):
-    bolo(i)
-bolo(" ")
-
-bolo("--------------------------------------------------------")
-bolo("Test Case: 2")
-bolo("--------------------------------------------------------")
-
-aa che num1 = 4 + 2
-aa che num2 = 5 + 1
-
-jo num1 == num2:
-    bolo("Sarkha che")
-jo num1 > num2:
-    bolo("Num 1 moto che")
-jo num2 > num2:
-    bolo("Num 2 moto che")
-jo num1 < num2:
-    bolo("Num 1 nano che")
-jo num2 < num2:
-    bolo("Num 2 nano che")
-naito:
-    kaini
-    bolo(" ")
-
-
-bolo("--------------------------------------------------------")
-bolo("Test Case: 3")
-bolo("--------------------------------------------------------")
-
-jya sodhi x < 10:
-    bolo(x)
-    x = x + 1
-
-bolo("--------------------------------------------------------")
-bolo("Test Case: 4")
-bolo("--------------------------------------------------------")
-
-prayas karo:
-    bolo(10 / 5)
-sivay:
-    bolo("Division by zero error caught")
-
-"""
-
-
 # Now use this function to translate and then execute your Gujjulang code
 translated_code = gujjulang_to_python(gujjulang_code)
 print("Translated Python Code:\n", translated_code)

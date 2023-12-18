@@ -15,7 +15,8 @@ def gujjulang_to_python(code):
     }
 
 
-    # Translate Gujjulang to Python
+    # Added a loop to iterate over the translations that we have already initiated above.
+    # This allows the python interpreter to acknowledge the initialized translations
     for gujju, py in translations.items():
         code = code.replace(gujju, py)
     

@@ -49,7 +49,9 @@ gujjulang_code = read_gujjulang_code(gujjulang_file_path)
 
 # Now use this function to translate and then execute your Gujjulang code
 translated_code = gujjulang_to_python(gujjulang_code)
-print("Translated Python Code:\n", translated_code)
+# print("Translated Python Code:\n", translated_code) #  This prints the code script and then the output 
+print("Translated Python Code:\n") #This prints only  the output of the given code
+
 
 # Execute the translated code
 # Added a try and except calls so that it will show where the error has occured in the testing file

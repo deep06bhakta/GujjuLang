@@ -2,7 +2,7 @@
 def gujjulang_to_python(code):
     translations = {
         'aa che ': '',
-        'bolo(': 'print(',
+        'bol baka(': 'print(',
         'jo ': 'if ',
         'ane jo ': 'elif ',
         'naito': 'else',

@@ -1,48 +1,48 @@
-bolo("--------------------------------------------------------")
-bolo("Test Case: 1")
-bolo("--------------------------------------------------------")
-bolo(" ")
+bol baka("--------------------------------------------------------")
+bol baka("Test Case: 1")
+bol baka("--------------------------------------------------------")
+bol baka(" ")
 
 aa che x = 0
 jyare i hoi(1, 101):
     bolo(i)
-bolo(" ")
+bol baka(" ")
 
-bolo("--------------------------------------------------------")
-bolo("Test Case: 2")
-bolo("--------------------------------------------------------")
+bol baka("--------------------------------------------------------")
+bol baka("Test Case: 2")
+bol baka("--------------------------------------------------------")
 
 aa che num1 = 4 + 2
 aa che num2 = 5 + 1
 
 jo num1 == num2:
-    bolo("Sarkha che")
+    bol baka("Sarkha che")
 jo num1 > num2:
-    bolo("Num 1 moto che")
+    bol baka("Num 1 moto che")
 jo num2 > num2:
-    bolo("Num 2 moto che")
+    bol baka("Num 2 moto che")
 jo num1 < num2:
-    bolo("Num 1 nano che")
+    bol baka("Num 1 nano che")
 jo num2 < num2:
-    bolo("Num 2 nano che")
+    bol baka("Num 2 nano che")
 naito:
     kaini
-    bolo(" ")
+    bol baka(" ")
 
 
-bolo("--------------------------------------------------------")
-bolo("Test Case: 3")
-bolo("--------------------------------------------------------")
+bol baka("--------------------------------------------------------")
+bol baka("Test Case: 3")
+bol baka("--------------------------------------------------------")
 
 jya sodhi x < 10:
-    bolo(x)
+    bol baka(x)
     x = x + 1
 
-bolo("--------------------------------------------------------")
-bolo("Test Case: 4")
-bolo("--------------------------------------------------------")
+bol baka("--------------------------------------------------------")
+bol baka("Test Case: 4")
+bol baka("--------------------------------------------------------")
 
 prayas karo:
-    bolo(10 / 5)
+    bol baka(10 / 5)
 sivay:
-    bolo("Division by zero error caught")
+    bol baka("Division by zero error caught")

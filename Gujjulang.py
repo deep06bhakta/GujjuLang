@@ -37,7 +37,7 @@ def gujjulang_to_python(code):
         code = code[:start] + python_while + code[code.find(')', end) + 1:]
     return code
 
-
+# The function helps reading the gj file that is in the same folder
 def read_gujjulang_code(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()

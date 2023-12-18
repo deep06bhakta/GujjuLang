@@ -1,3 +1,4 @@
+# Here are all the grammar interpretation from Gujarati to python
 def gujjulang_to_python(code):
     translations = {
         'aa che ': '',

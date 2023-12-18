@@ -43,7 +43,7 @@ def read_gujjulang_code(file_path):
         return file.read()
 
 # Replace 'your_gujjulang_file.txt' with the path to your Gujjulang code file
-gujjulang_file_path = 'test.gj'
+gujjulang_file_path = 'test.gj' # Could be named whatever e.g .txt, .gj
 gujjulang_code = read_gujjulang_code(gujjulang_file_path)
 
 
@@ -52,6 +52,7 @@ translated_code = gujjulang_to_python(gujjulang_code)
 print("Translated Python Code:\n", translated_code)
 
 # Execute the translated code
+# Added a try and except calls so that it will show where the error has occured in the testing file
 try:
     exec(translated_code)
 except SyntaxError as e:

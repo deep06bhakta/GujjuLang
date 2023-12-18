@@ -37,13 +37,13 @@ def gujjulang_to_python(code):
     return code
 
 
-# def read_gujjulang_code(file_path):
-#     with open(file_path, 'r', encoding='utf-8') as file:
-#         return file.read()
+def read_gujjulang_code(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return file.read()
 
-# # Replace 'your_gujjulang_file.txt' with the path to your Gujjulang code file
-# gujjulang_file_path = 'test.gj'
-# gujjulang_code = read_gujjulang_code(gujjulang_file_path)
+# Replace 'your_gujjulang_file.txt' with the path to your Gujjulang code file
+gujjulang_file_path = 'test.gj'
+gujjulang_code = read_gujjulang_code(gujjulang_file_path)
 
 
 # Example usage

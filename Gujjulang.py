@@ -62,4 +62,7 @@ try:
     exec(translated_code)
 except SyntaxError as e:
     print("Eni maa ne!! Oye babuchak, amtha amtha sawal nai puch! ")
-    
+    time.sleep(3)
+    print("Coding na avadtu hoi toh rehvade!")
+    time.sleep(3)
+    print("Chal ave khotu na lagad, bhul aa che tari --> ", e)

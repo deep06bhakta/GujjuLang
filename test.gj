@@ -5,7 +5,7 @@ bol baka(" ")
 
 aa che x = 0
 jyare i hoi(1, 101):
-    bolo(i)
+    bol baka(i)
 bol baka(" ")
 
 bol baka("--------------------------------------------------------")
@@ -46,3 +46,17 @@ prayas karo:
     bol baka(10 / 5)
 sivay:
     bol baka("Division by zero error caught")
+
+
+bol baka("--------------------------------------------------------")
+bol baka("Test Case: 5") 
+bol baka("--------------------------------------------------------")
+
+#####  CURRENTLY NOT WORKING   #####
+
+aa che rows = 6
+
+jo i hoi(rows):
+    jo j hoi(i):
+        bol baka(i, end=' ')
+    bol baka('')

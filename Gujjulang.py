@@ -1,3 +1,6 @@
+import time
+
+
 # Here are all the grammar interpretation from Gujarati to python
 def gujjulang_to_python(code):
     translations = {
@@ -58,4 +61,5 @@ print("Translated Python Code:\n") #This prints only  the output of the given co
 try:
     exec(translated_code)
 except SyntaxError as e:
-    print("There is a syntax error in the translated code:", e)
+    print("Eni maa ne!! Oye babuchak, amtha amtha sawal nai puch! ")
+    

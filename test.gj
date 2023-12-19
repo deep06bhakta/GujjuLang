@@ -56,7 +56,7 @@ bol baka("--------------------------------------------------------")
 
 aa che rows = 6
 
-jo i hoi(rows):
+jo i hoi(rows)
     jo j hoi(i):
         bol baka(i, end=' ')
     bol baka('')

@@ -5,7 +5,8 @@ bol baka(" ")
 
 aa che x = 0
 jyare i hoi(1, 101):
-    bol baka(i)
+    bol baka(i, end=" ")
+  #  bol baka(i * 2)
 bol baka(" ")
 
 bol baka("--------------------------------------------------------")

@@ -15,7 +15,9 @@ def gujjulang_to_python(code):
         ' hoi(': ' in range(',
         'jya sodhi ': 'while ',
         'prayas karo:': 'try:',
-        'sivay:': 'except:'
+        'sivay:': 'except:',
+        'Sachu': 'True',
+        "Khotu": 'False'
     }
 
 
